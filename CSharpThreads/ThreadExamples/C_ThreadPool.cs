@@ -24,6 +24,7 @@ namespace CSharpThreads.ThreadExamples
         /// <summary>
         /// (A) QueueUserWorkItem
         /// There is no easy way to get return value from callback method when using QueueUserWorkItem
+        /// Also, Unhandled exceptions need to be handled explicitly in callback method
         /// </summary>
         /// <param name="msg"></param>
         private static void QueueUserWorkItemMethod(string msg)
@@ -34,7 +35,8 @@ namespace CSharpThreads.ThreadExamples
 
         /// <summary>
         /// (B) Asynchronous Delegates
-        /// Asynchronous delegates allow us to get return value from callback method
+        /// Asynchronous delegates allow us to get return value from callback method.
+        /// Exceptions can be easily re-thrown to the original thread or the thread which calls EndInvoke.
         /// </summary>
         private static void AsynchronousDelegatesMethod()
         {            
@@ -45,6 +47,8 @@ namespace CSharpThreads.ThreadExamples
             Console.WriteLine($"String Length is : {stringLength}");
         }
 
+
+        #region Target Methods
         static void DoWork(object data)
         {
             Console.WriteLine($"I am a pooled thread using QueueUserWorkItem. My value: {data}");
@@ -55,5 +59,6 @@ namespace CSharpThreads.ThreadExamples
             Console.WriteLine($"I am a pooled thread using AsynchronousDelegates. My value: {inputString}");
             return inputString.Length;
         }
+        #endregion
     }
 }
