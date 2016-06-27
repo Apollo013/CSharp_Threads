@@ -8,4 +8,5 @@ A console app demonstrating the basics of threading including thread types, join
 |Thread Types | Demonstrates how to create foreground & background threads |
 |Thread Creation | Demonstrates how to create threads using Thread Class, ThreadStart delegate, Parameterized Thread, Anonymous Delegates, Lambda Expressions, and shows usage of Thread.Join() |
 |Thread Pool | Demonstrates ThreadPool.QueueUserWorkItem, ManualResetEvent & WaitHandle |
+|Exception Handling | Demonstrates how and where to catch exceptions |
 
