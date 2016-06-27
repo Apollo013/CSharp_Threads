@@ -10,10 +10,9 @@ namespace CSharpThreads
         {
             A_ThreadTypes.Run();
             B_ThreadCreation.Run();
-
-            // Thread Pools
             C_ThreadPool.Run();
             FibonacciRun.Run();
+            D_ExceptionHandling.Run();
 
 
             PrintUtility.PrintTitle("MAIN THREAD EXITING");
