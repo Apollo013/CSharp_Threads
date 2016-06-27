@@ -4,6 +4,11 @@ using System.Threading;
 
 namespace CSharpThreads.ThreadExamples
 {
+    /// <summary>
+    /// Demonstrates Thread Pooling
+    /// (A) QueueUserWorkItem
+    /// (B) Asynchronous Delegates
+    /// </summary>
     public class C_ThreadPool
     {
 
@@ -12,20 +17,27 @@ namespace CSharpThreads.ThreadExamples
             PrintUtility.PrintTitle("THREAD POOLS");
             PrintUtility.PrintSubTitle("POOLED THREADS ARE ALWAYS BACKGROUND THREADS");
             QueueUserWorkItemMethod("Hello");
-            AsynchronousDelegates();
+            AsynchronousDelegatesMethod();
 
         }
 
+        /// <summary>
+        /// (A) QueueUserWorkItem
+        /// There is no easy way to get return value from callback method when using QueueUserWorkItem
+        /// </summary>
+        /// <param name="msg"></param>
         private static void QueueUserWorkItemMethod(string msg)
-        {
-            // There is no easy way to get return value from callback method when using QueueUserWorkItem
+        {           
             ThreadPool.QueueUserWorkItem(DoWork, msg + " 1");
             ThreadPool.QueueUserWorkItem(DoWork, msg);
         }
 
-        private static void AsynchronousDelegates()
-        {
-            // Asynchronous delegates allow us to get return value from callback method
+        /// <summary>
+        /// (B) Asynchronous Delegates
+        /// Asynchronous delegates allow us to get return value from callback method
+        /// </summary>
+        private static void AsynchronousDelegatesMethod()
+        {            
             Func<string, int> MethodName = GetStringLength;
             IAsyncResult result = MethodName.BeginInvoke("Testing Asynchronous Delegate", null, null);
             QueueUserWorkItemMethod("Second Hello");

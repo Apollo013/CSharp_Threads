@@ -4,6 +4,9 @@ using System.Threading;
 
 namespace CSharpThreads.ThreadExamples
 {
+    /// <summary>
+    /// Demonstration of the different ways in which to create a thread.
+    /// </summary>
     public class B_ThreadCreation
     {
 
@@ -30,31 +33,44 @@ namespace CSharpThreads.ThreadExamples
             t2.Start();
         }
 
+        /// <summary>
+        /// Allows us to pass an arguement to the target method
+        /// </summary>
         private static void ParameterisedThreadStart()
         {
             Thread t3 = new Thread(new ParameterizedThreadStart(PrintMeWithParam));
             t3.Start("Parameterized Thread Start Delegate");
         }
 
+        /// <summary>
+        /// Anonymous delegate example that also allows us to pass an arguemnt to the target method
+        /// </summary>
         private static void AnonymousDelegateThreadStart()
         {
             Thread t4 = new Thread(delegate () { PrintMeWithParam("Anonymous Delegate Thread Start"); });
             t4.Start();
         }
 
+        /// <summary>
+        /// Lambda Expression example that also allows us to pass an arguemnt to the target method
+        /// </summary>
         private static void LambdaExpressionThreadStart()
         {
             Thread t5 = new Thread(() => PrintMeWithParam("Lambda Expression"));
             t5.Start();
         }
 
+        /// <summary>
+        /// The Join method causes a wait for a thread to finish. In a multi-threading scenario, 
+        /// it can be used to provide blocking functionality by allowing waits for the specified thread
+        /// </summary>
         private static void ThreadJoin()
         {
             PrintUtility.PrintSubTitle("THREAD JOIN");
             Thread t6 = new Thread(PrintThread);
             t6.Name = "Thread 6";
             t6.Start();
-            t6.Join();
+            t6.Join(); // Wait for this Thread to complete first before proceeding with next.
 
             Thread t7 = new Thread(PrintThread);
             t7.Name = "Thread 7";

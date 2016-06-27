@@ -4,6 +4,9 @@ using System.Threading;
 
 namespace CSharpThreads.ThreadExamples
 {
+    /// <summary>
+    /// Demonstration of Foreground & Background Threads
+    /// </summary>
     public class A_ThreadTypes
     {
         public static void Run()
