@@ -51,6 +51,7 @@
     <Compile Include="ThreadExamples\D_ExceptionHandling.cs" />
     <Compile Include="ThreadExamples\ThreadPoolExtra\Fibonacci.cs" />
     <Compile Include="ThreadExamples\ThreadPoolExtra\FibonacciRun.cs" />
+    <Compile Include="ThreadExamples\E_ThreadPriority.cs" />
     <Compile Include="Utilities\PrintUtility.cs" />
   </ItemGroup>
   <ItemGroup>

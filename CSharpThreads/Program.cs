@@ -8,15 +8,17 @@ namespace CSharpThreads
     {
         static void Main(string[] args)
         {
+            /*
             A_ThreadTypes.Run();
             B_ThreadCreation.Run();
             C_ThreadPool.Run();
             FibonacciRun.Run();
             D_ExceptionHandling.Run();
+            */
 
+            E_ThreadPriority.Run();
 
-            PrintUtility.PrintTitle("MAIN THREAD EXITING");
-            PrintUtility.PrintSubTitle("Background Threads still running after main thread has finished because a Foreground Thread is still alive");
+            PrintUtility.PrintTitle("MAIN THREAD EXITING \nBackground Threads still running after main thread has finished because a Foreground Thread is still alive");
 
             Console.ReadLine();
         }
