@@ -11,7 +11,7 @@ A console app demonstrating the basics of threading including thread types, join
 |Exception Handling | Demonstrates how and where to catch exceptions |
 |Thread Priority | Example showing thread execution with different priorities set (Highest & Lowest) |
 |Thread Synchronization & Blocking | Example demonstrates Thread.Sleep, Thread.Join & Task.Wait |
-|Thread Locking | Demonstrates how to lock a critical section of code to prevent another thread from entering until complete  |
+|Thread Locking | Demonstrates how to lock a critical section of code to prevent simultaneous execution by multiple threads  |
 
 
 ---
