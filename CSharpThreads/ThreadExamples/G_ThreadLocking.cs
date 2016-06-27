@@ -1,0 +1,31 @@
+﻿using CSharpThreads.Models;
+using CSharpThreads.Utilities;
+using System.Threading;
+
+namespace CSharpThreads.ThreadExamples
+{
+    public class G_ThreadLocking
+    {
+        public static void Run()
+        {
+            PrintUtility.PrintTitle("THREAD LOCKING");
+
+            Thread[] threads = new Thread[10];
+            Account acc = new Account(1000);
+
+            for (int i = 0; i < 10; i++)
+            {
+                Thread T = new Thread(new ThreadStart(acc.DoTransactions));
+                T.Name = $"Thread{i}";
+                threads[i] = T;
+            }
+
+            for(int i = 0; i < threads.Length; i++)
+            {
+                threads[i].Start();
+            }
+        }
+
+    }
+
+}

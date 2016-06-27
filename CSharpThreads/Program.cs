@@ -14,11 +14,12 @@ namespace CSharpThreads
             C_ThreadPool.Run();
             FibonacciRun.Run();
             D_ExceptionHandling.Run();
+            E_ThreadPriority.Run();            
+            F_ThreadSynchronizationAndBlocking.Run();
             */
+            G_ThreadLocking.Run();
 
-            E_ThreadPriority.Run();
-
-            PrintUtility.PrintTitle("MAIN THREAD EXITING \nBackground Threads still running after main thread has finished because a Foreground Thread is still alive");
+            PrintUtility.PrintSubTitle("MAIN THREAD EXITING \nBackground Threads still running after main thread has finished because a Foreground Thread is still alive");
 
             Console.ReadLine();
         }
