@@ -1,4 +1,5 @@
 ﻿using CSharpThreads.ThreadExamples;
+using CSharpThreads.Utilities;
 using System;
 
 namespace CSharpThreads
@@ -9,8 +10,15 @@ namespace CSharpThreads
         {
             A_ThreadTypes.Run();
             B_ThreadCreation.Run();
+
+            // Thread Pools
             C_ThreadPool.Run();
-            Console.WriteLine("MAIN THREAD EXITING");
+            FibonacciRun.Run();
+
+
+            PrintUtility.PrintTitle("MAIN THREAD EXITING");
+            PrintUtility.PrintSubTitle("Background Threads still running after main thread has finished because a Foreground Thread is still alive");
+
             Console.ReadLine();
         }
     }

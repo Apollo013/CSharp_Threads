@@ -7,7 +7,7 @@ namespace CSharpThreads.Utilities
         #region PRINT METHODS
         public static void PrintTitle(string title)
         {
-            Console.WriteLine("");
+            Console.WriteLine("\n");
             Console.WriteLine("***************************************************");
             Console.WriteLine(title);
             Console.WriteLine("***************************************************");
@@ -17,9 +17,9 @@ namespace CSharpThreads.Utilities
         {
             Console.WriteLine("");
             Console.WriteLine("");
-            Console.WriteLine("============================================================================================");
+            Console.WriteLine("===============================================================================================================================");
             Console.WriteLine(title);
-            Console.WriteLine("============================================================================================");
+            Console.WriteLine("===============================================================================================================================");
         }
         #endregion
     }

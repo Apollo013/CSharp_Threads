@@ -48,11 +48,15 @@
     <Compile Include="ThreadExamples\A_ThreadTypes.cs" />
     <Compile Include="ThreadExamples\B_ThreadCreation.cs" />
     <Compile Include="ThreadExamples\C_ThreadPool.cs" />
+    <Compile Include="ThreadExamples\D_ExceptionHandling.cs" />
+    <Compile Include="ThreadExamples\ThreadPoolExtra\Fibonacci.cs" />
+    <Compile Include="ThreadExamples\ThreadPoolExtra\FibonacciRun.cs" />
     <Compile Include="Utilities\PrintUtility.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
