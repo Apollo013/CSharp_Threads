@@ -52,6 +52,9 @@
     <Compile Include="ThreadExamples\D_ExceptionHandling.cs" />
     <Compile Include="ThreadExamples\F_ThreadSynchronizationAndBlocking.cs" />
     <Compile Include="ThreadExamples\G_ThreadLocking.cs" />
+    <Compile Include="ThreadExamples\H_ThreadMonitoring.cs" />
+    <Compile Include="ThreadExamples\MonitorExtra\TickTock.cs" />
+    <Compile Include="ThreadExamples\MonitorExtra\TickTockThread.cs" />
     <Compile Include="ThreadExamples\ThreadPoolExtra\Fibonacci.cs" />
     <Compile Include="ThreadExamples\ThreadPoolExtra\FibonacciRun.cs" />
     <Compile Include="ThreadExamples\E_ThreadPriority.cs" />

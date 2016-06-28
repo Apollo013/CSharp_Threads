@@ -27,7 +27,6 @@ namespace CSharpThreads.Models
                 throw new Exception("Negative Balance");
             }
 
-
             // Ensure that one thread does not enter a critical section of code while another thread is in the critical section. 
             // If another thread tries to enter a locked code, it will wait, block, until the object is released.
             lock (thisLock)
