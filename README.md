@@ -21,3 +21,4 @@ A console app demonstrating the basics of threading including thread types, join
 | [Threading Simplified](http://www.c-sharpcorner.com/UploadFile/19b1bd/threading-simplified-part1/)| C# Corner |
 | [Lock Statement](https://msdn.microsoft.com/en-us/library/c5kehkcz.aspx?f=255&MSPPError=-2147217396)| MSDN |
 | [Thread Synchronization](https://msdn.microsoft.com/en-us/library/mt679037.aspx?f=255&MSPPError=-2147217396)| MSDN |
+| [Threading with Monitor](http://www.c-sharpcorner.com/UploadFile/1d42da/threading-with-monitor-in-C-Sharp/)|C# Corner|
