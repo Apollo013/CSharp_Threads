@@ -54,6 +54,7 @@
     <Compile Include="ThreadExamples\G_ThreadLocking.cs" />
     <Compile Include="ThreadExamples\H_ThreadMonitoring.cs" />
     <Compile Include="ThreadExamples\I_PausingAndResuming.cs" />
+    <Compile Include="ThreadExamples\J_Deadlock.cs" />
     <Compile Include="ThreadExamples\MonitorExtra\TickTock.cs" />
     <Compile Include="ThreadExamples\MonitorExtra\TickTockThread.cs" />
     <Compile Include="ThreadExamples\ThreadPoolExtra\Fibonacci.cs" />

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CSharpThreads.Utilities;
+using System;
 using System.Threading;
 
 namespace CSharpThreads.ThreadExamples
@@ -7,6 +8,8 @@ namespace CSharpThreads.ThreadExamples
     {
         public static void Run()
         {
+            PrintUtility.PrintTitle("THREAD PAUSING AND RESUMING");
+
             Thread thread = new Thread(SleepIndefinately);
             thread.Name = "Sleepy";
             thread.Start();

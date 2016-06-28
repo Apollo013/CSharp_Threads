@@ -15,8 +15,8 @@ namespace CSharpThreads.ThreadExamples
         public static void Run()
         {
             PrintUtility.PrintTitle("THREAD MONITORING");
-            //EnterAndExitExample();
-            //PoolExample();
+            EnterAndExitExample();
+            PoolExample();
             TickTockExample();
         }
 
