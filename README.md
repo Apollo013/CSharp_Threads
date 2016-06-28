@@ -6,7 +6,7 @@ A console app demonstrating the basics of threading including thread types, join
 |Feature |Description |
 |--------|------------|
 |Thread Types | Demonstrates how to create foreground & background threads |
-|Thread Creation | Demonstrates how to create threads using Thread Class, ThreadStart delegate, Parameterized Thread, Anonymous Delegates, Lambda Expressions, and shows usage of Thread.Join() |
+|Thread Creation | Demonstrates how to create threads using Thread Class, ThreadStart delegate, Parameterized Thread, Anonymous Delegates, and Lambda Expressions. |
 |Thread Pool | Demonstrates ThreadPool.QueueUserWorkItem, ManualResetEvent & WaitHandle |
 |Exception Handling | Demonstrates how and where to catch exceptions |
 |Thread Priority | Example showing thread execution with different priorities set (Highest & Lowest) |
@@ -20,7 +20,7 @@ A console app demonstrating the basics of threading including thread types, join
 ####Resources
 | Subject Name | Website |
 |--------------|---------|
-| [Threading Simplified](http://www.c-sharpcorner.com/UploadFile/19b1bd/threading-simplified-part1/)| C# Corner |
+| [Threading Simplified Parts 1 - 14](http://www.c-sharpcorner.com/UploadFile/19b1bd/threading-simplified-part1/)| C# Corner |
 | [Lock Statement](https://msdn.microsoft.com/en-us/library/c5kehkcz.aspx?f=255&MSPPError=-2147217396)| MSDN |
 | [Thread Synchronization](https://msdn.microsoft.com/en-us/library/mt679037.aspx?f=255&MSPPError=-2147217396)| MSDN |
 | [Threading with Monitor](http://www.c-sharpcorner.com/UploadFile/1d42da/threading-with-monitor-in-C-Sharp/)|C# Corner|
