@@ -12,7 +12,8 @@ A console app demonstrating the basics of threading including thread types, join
 |Thread Priority | Example showing thread execution with different priorities set (Highest & Lowest) |
 |Thread Synchronization & Blocking | Example demonstrates Thread.Sleep, Thread.Join & Task.Wait |
 |Thread Locking | Demonstrates how to lock a critical section of code to prevent simultaneous execution by multiple threads  |
-|Thread Monitoring | Similar to Locking but gives you more control. Demonstrates Enter, Exit, Puls & Wait.  |
+|Thread Monitoring | Similar to Locking but gives you added control. Demonstrates Enter, Exit, Pulse & Wait.  |
+|Thread Pausing and Resuming | Shows how to Start, Pause, Interrupt adn Abort Threads.  |
 
 ---
 ####Resources
