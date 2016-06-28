@@ -14,6 +14,7 @@ A console app demonstrating the basics of threading including thread types, join
 |Thread Locking | Demonstrates how to lock a critical section of code to prevent simultaneous execution by multiple threads  |
 |Thread Monitoring | Similar to Locking but gives you added control. Demonstrates Enter, Exit, Pulse & Wait.  |
 |Thread Pausing and Resuming | Shows how to Start, Pause, Interrupt adn Abort Threads.  |
+| Deadlock | Demonstrates how a deadlock between multiple threads can occur |
 
 ---
 ####Resources
