@@ -8,6 +8,7 @@ namespace CSharpThreads
     {
         static void Main(string[] args)
         {
+            // Run each one independently
             /*
             A_ThreadTypes.Run();
             B_ThreadCreation.Run();
@@ -15,11 +16,12 @@ namespace CSharpThreads
             FibonacciRun.Run();
             D_ExceptionHandling.Run();
             E_ThreadPriority.Run();            
-            F_ThreadSynchronizationAndBlocking.Run();
-            
+            F_ThreadSynchronizationAndBlocking.Run();            
             G_ThreadLocking.Run();
-            */
             H_ThreadMonitoring.Run();
+
+            */
+            I_PausingAndResuming.Run();
 
             PrintUtility.PrintSubTitle("MAIN THREAD EXITING \nBackground Threads still running after main thread has finished because a Foreground Thread is still alive");
 
