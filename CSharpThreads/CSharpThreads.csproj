@@ -55,8 +55,11 @@
     <Compile Include="ThreadExamples\H_ThreadMonitoring.cs" />
     <Compile Include="ThreadExamples\I_PausingAndResuming.cs" />
     <Compile Include="ThreadExamples\J_Deadlock.cs" />
+    <Compile Include="ThreadExamples\K_Mutex.cs" />
     <Compile Include="ThreadExamples\MonitorExtra\TickTock.cs" />
     <Compile Include="ThreadExamples\MonitorExtra\TickTockThread.cs" />
+    <Compile Include="ThreadExamples\MutexExtra\MutexExample.cs" />
+    <Compile Include="ThreadExamples\MutexExtra\MutexExample2.cs" />
     <Compile Include="ThreadExamples\ThreadPoolExtra\Fibonacci.cs" />
     <Compile Include="ThreadExamples\ThreadPoolExtra\FibonacciRun.cs" />
     <Compile Include="ThreadExamples\E_ThreadPriority.cs" />
