@@ -20,7 +20,7 @@ namespace CSharpThreads.ThreadExamples
         {
             PrintUtility.PrintTitle("MUTEX - MUTUALLY EXLCUSIVE");
 
-            // Rnu one at a time only
+            // Run one at a time only
             //RunExample1();
             //RunExample2();
             RunExample3();

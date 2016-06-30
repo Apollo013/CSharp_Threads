@@ -44,6 +44,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Models\Account.cs" />
+    <Compile Include="Models\NonThreadSafeClass.cs" />
+    <Compile Include="Models\ThreadSafeClass.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ThreadExamples\A_ThreadTypes.cs" />
