@@ -64,6 +64,7 @@
     <Compile Include="ThreadExamples\MonitorExtra\TickTockThread.cs" />
     <Compile Include="ThreadExamples\MutexExtra\MutexExample.cs" />
     <Compile Include="ThreadExamples\MutexExtra\MutexExample2.cs" />
+    <Compile Include="ThreadExamples\N_ThreadJoin.cs" />
     <Compile Include="ThreadExamples\ThreadPoolExtra\Fibonacci.cs" />
     <Compile Include="ThreadExamples\ThreadPoolExtra\FibonacciRun.cs" />
     <Compile Include="ThreadExamples\E_ThreadPriority.cs" />
