@@ -15,6 +15,7 @@ A console app demonstrating the basics of threading including thread types, join
 |Thread Monitoring | Similar to Locking but gives you added control. Demonstrates Enter, Exit, Pulse & Wait.  |
 |Thread Pausing and Resuming | Shows how to Start, Pause, Interrupt adn Abort Threads.  |
 | Deadlock | Demonstrates how a deadlock between multiple threads can occur |
+| Mutex | Demonstrates several examples of mutual exclusion |
 
 ---
 ####Resources
@@ -25,3 +26,4 @@ A console app demonstrating the basics of threading including thread types, join
 | [Thread Synchronization](https://msdn.microsoft.com/en-us/library/mt679037.aspx?f=255&MSPPError=-2147217396)| MSDN |
 | [Threading with Monitor](http://www.c-sharpcorner.com/UploadFile/1d42da/threading-with-monitor-in-C-Sharp/)|C# Corner|
 | [Pausing and Resuming Threads](https://msdn.microsoft.com/en-us/library/tttdef8x%28v=vs.110%29.aspx?f=255&MSPPError=-2147217396)|MSDN|
+| [Mutex Class](https://msdn.microsoft.com/en-us/library/system.threading.mutex%28v=vs.110%29.aspx?f=255&MSPPError=-2147217396)|MSDN|
