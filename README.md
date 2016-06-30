@@ -17,6 +17,8 @@ A console app demonstrating the basics of threading including thread types, join
 | Deadlock | Demonstrates how a deadlock between multiple threads can occur |
 | Mutex | Demonstrates several examples of mutual exclusion when synchronizing |
 | Context Synchronization | Demonstrates how to create thread safe classes using the 'Synchronization' key word and 'ContextBoundObject' inheritance  |
+| ConcurrentDictionary | Demonstrates how to create thread safe classes using the 'Synchronization' key word and 'ContextBoundObject' inheritance  |
+| Join Method | Another blocking mechanism example |
 
 ---
 ####Resources
