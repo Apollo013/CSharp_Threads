@@ -25,11 +25,10 @@ namespace CSharpThreads
             L_SynchronizationContext.Run();
             M_ConcurrentDictionary.Run();
             N_ThreadJoin.Run();
-
+                        
             */
 
-            O_ManualResetEvent.Run();
-
+            P_AutoResetEvent.Run();
 
             PrintUtility.PrintSubTitle("MAIN THREAD EXITING \nBackground Threads still running after main thread has finished because a Foreground Thread is still alive");
             Console.ReadLine();
