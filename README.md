@@ -15,7 +15,8 @@ A console app demonstrating the basics of threading including thread types, join
 |Thread Monitoring | Similar to Locking but gives you added control. Demonstrates Enter, Exit, Pulse & Wait.  |
 |Thread Pausing and Resuming | Shows how to Start, Pause, Interrupt adn Abort Threads.  |
 | Deadlock | Demonstrates how a deadlock between multiple threads can occur |
-| Mutex | Demonstrates several examples of mutual exclusion |
+| Mutex | Demonstrates several examples of mutual exclusion when synchronizing |
+| Context Synchronization | Demonstrates how to create thread safe classes using the 'Synchronization' key word and 'ContextBoundObject' inheritance  |
 
 ---
 ####Resources
