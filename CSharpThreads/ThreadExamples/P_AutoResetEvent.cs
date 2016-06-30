@@ -14,7 +14,7 @@ namespace CSharpThreads.ThreadExamples
         {
             PrintUtility.PrintTitle("AUTO RESET EVENT EXAMPLE");
 
-            PrintUtility.PrintSubTitle("Start 3 named threads that block on a ManualResetEvent");
+            PrintUtility.PrintSubTitle("Press Enter to Start 3 named threads and start them");
             Console.ReadLine();
 
             for (int i = 0; i < 3; i++)
