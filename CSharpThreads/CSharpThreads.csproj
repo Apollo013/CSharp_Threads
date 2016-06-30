@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Models\Account.cs" />
+    <Compile Include="ThreadExamples\M_ConcurrentDictionary.cs" />
     <Compile Include="Models\NonThreadSafeClass.cs" />
     <Compile Include="Models\ThreadSafeClass.cs" />
     <Compile Include="Program.cs" />

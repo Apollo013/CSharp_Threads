@@ -22,9 +22,12 @@ namespace CSharpThreads
             I_PausingAndResuming.Run();
             J_Deadlock.Run();
             K_Mutex.Run();
+            L_SynchronizationContext.Run();
+            
             */
 
-            L_SynchronizationContext.Run();
+
+            M_ConcurrentDictionary.Run();
 
             PrintUtility.PrintSubTitle("MAIN THREAD EXITING \nBackground Threads still running after main thread has finished because a Foreground Thread is still alive");
             Console.ReadLine();
