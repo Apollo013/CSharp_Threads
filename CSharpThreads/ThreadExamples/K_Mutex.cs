@@ -5,6 +5,11 @@ using System.Threading;
 
 namespace CSharpThreads.ThreadExamples
 {
+    /// <summary>
+    /// Mutex stands for Mutual Exclusion and can be used for inter-process synchronization. 
+    /// Mutex works similarly to lock except that it’s an operating system level lock and hence can be used to lock across processes. 
+    /// On the contrary lock only works across threads in an AppDpmain of a process
+    /// </summary>
     public class K_Mutex
     {
         private static readonly Mutex mutex = new Mutex();

@@ -4,6 +4,9 @@ using System.Threading;
 
 namespace CSharpThreads.ThreadExamples
 {
+    /// <summary>
+    /// Demonstrates how to elevate priority of some threads
+    /// </summary>
     public class E_ThreadPriority
     {
         public static void Run()

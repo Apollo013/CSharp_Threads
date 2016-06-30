@@ -5,6 +5,10 @@ using System.Threading;
 
 namespace CSharpThreads.ThreadExamples
 {
+    /// <summary>
+    /// Monitor is used to synchronize access to any code block by allowing only one thread at a time.
+    /// Similar to Lock, however, it does give us more control in certain situations.
+    /// </summary>
     public class H_ThreadMonitoring
     {
         // Important to only create a single lock object per critical section

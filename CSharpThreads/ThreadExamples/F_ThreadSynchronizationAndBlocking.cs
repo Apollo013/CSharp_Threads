@@ -5,6 +5,9 @@ using System.Threading.Tasks;
 
 namespace CSharpThreads.ThreadExamples
 {
+    /// <summary>
+    /// Thread Synchronization Fundamentals
+    /// </summary>
     public class F_ThreadSynchronizationAndBlocking
     {
         static Thread thread1 = null;

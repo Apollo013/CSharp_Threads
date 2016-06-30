@@ -4,6 +4,9 @@ using System.Threading;
 
 namespace CSharpThreads.ThreadExamples
 {
+    /// <summary>
+    /// Thread Locking ensures that only one thread can enter at a time in a code block
+    /// </summary>
     public class G_ThreadLocking
     {
         public static void Run()
