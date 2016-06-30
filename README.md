@@ -19,6 +19,8 @@ A console app demonstrating the basics of threading including thread types, join
 | Context Synchronization | Demonstrates how to create thread safe classes using the 'Synchronization' key word and 'ContextBoundObject' inheritance  |
 | ConcurrentDictionary | Demonstrates how to create thread safe classes using the 'Synchronization' key word and 'ContextBoundObject' inheritance  |
 | Join Method | Another blocking mechanism example |
+| ManualResetEvent | Signalling example allowing one thread to communicate with another |
+| AutoResetEvent | Signalling example allowing one thread to communicate with another |
 
 ---
 ####Resources
