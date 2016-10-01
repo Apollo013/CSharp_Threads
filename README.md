@@ -1,8 +1,12 @@
 # CSharp_Threads
-A console app demonstrating the basics of threading including thread types, joins, creation &amp; pooling..
-
 
 ---
+
+A couple of console apps demonstrating the basics of threading including thread types, joins, creation &amp; pooling..
+
+---
+###Features
+
 |Feature |Description |
 |--------|------------|
 |Thread Types | Demonstrates how to create foreground & background threads |
@@ -23,8 +27,8 @@ A console app demonstrating the basics of threading including thread types, join
 | AutoResetEvent | Signalling example allowing one thread to communicate with another |
 
 ---
-####Resources
-| Subject Name | Author |Website |
+###Resources
+| Title | Author |Website |
 |--------------|--------|--------|
 | [Threading in C#](http://www.albahari.com/threading/) | Joe Albahari | albahari.com |
 | [Threading Simplified Parts 1 - 14](http://www.c-sharpcorner.com/UploadFile/19b1bd/threading-simplified-part1/)| |C# Corner |
@@ -33,3 +37,23 @@ A console app demonstrating the basics of threading including thread types, join
 | [Threading with Monitor](http://www.c-sharpcorner.com/UploadFile/1d42da/threading-with-monitor-in-C-Sharp/)| |C# Corner|
 | [Pausing and Resuming Threads](https://msdn.microsoft.com/en-us/library/tttdef8x%28v=vs.110%29.aspx?f=255&MSPPError=-2147217396)||MSDN|
 | [Mutex Class](https://msdn.microsoft.com/en-us/library/system.threading.mutex%28v=vs.110%29.aspx?f=255&MSPPError=-2147217396)| |MSDN|
+
+---
+
+##Revisited Project
+
+---
+
+###Features
+|Feature |Description |
+|--------|------------|
+|Race Conditions | Demonstrates thread synchronization using Join, lock & Monitor |
+
+---
+
+###Resources
+|Title | Author |Website |
+|--------------|--------|--------|
+| [Race Conditions](http://www.csharpstar.com/csharp-race-conditions-in-threading/) |  | Csharpstar.com |
+| [Locks and exceptions do not mix](https://blogs.msdn.microsoft.com/ericlippert/2009/03/06/locks-and-exceptions-do-not-mix/) | Eric Lippert | MSDN |
+| [Subtleties of C# IL codegen](https://blogs.msdn.microsoft.com/ericlippert/2007/08/17/subtleties-of-c-il-codegen/) | Eric Lippert | MSDN |
