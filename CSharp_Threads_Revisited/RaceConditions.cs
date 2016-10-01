@@ -34,6 +34,7 @@ namespace CSharp_Threads_Revisited
 
         private static void RunProblem()
         {
+            // Although this may process as expected, it is inconsistent.
             Print("The Problem");
             Thread t1 = new Thread(PrintNumbers);
             t1.Start();
@@ -112,8 +113,8 @@ namespace CSharp_Threads_Revisited
         private static void RunSolutionUsingMonitor()
         {
             Print("Monitor Solution");
-            new Thread(PrintNumbersWithLock).Start();
-            new Thread(PrintLettersWithLock).Start();
+            new Thread(PrintNumbersWithMonitor).Start();
+            new Thread(PrintLettersWithMonitor).Start();
         }
 
         private static void PrintNumbersWithMonitor()
